@@ -281,4 +281,16 @@ footer {
   .btn {
     width: 80%;
   }
+  .git{
+    background: #fff;
+  }
+  .link{
+    background: #549ff5;
+  }
+  .face{
+    background: #022cff;
+  }
+  .insta{
+    background: #ff025b;
+  }
 }
