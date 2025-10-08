@@ -6,7 +6,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* حركات الأنيميشن */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -45,7 +44,6 @@ body {
   animation: slideUp 1.2s ease both;
 }
 
-/* الهيدر */
 header {
   text-align: center;
   padding: 80px 20px;
@@ -86,7 +84,6 @@ header .buttons {
   transform: translateY(-3px);
 }
 
-/* قسم عني */
 #about {
   display: flex;
   align-items: center;
@@ -114,7 +111,6 @@ header .buttons {
   font-size: 1.8rem;
 }
 
-/* المشاريع */
 #fullstack-projects,
 #mobile-projects {
   text-align: center;
@@ -175,7 +171,6 @@ header .buttons {
   background: #0097a7;
 }
 
-/* التواصل */
 #contact {
   text-align: center;
   padding: 60px 20px;
@@ -232,7 +227,6 @@ header .buttons {
   box-shadow: 0px 0px 5px 3px #f56186;
 }
 
-/* الفوتر */
 footer {
   text-align: center;
   padding: 20px;
@@ -241,7 +235,6 @@ footer {
   font-size: 0.9rem;
 }
 
-/* موبايل */
 @media (max-width: 768px) {
   #about {
     flex-direction: column;
