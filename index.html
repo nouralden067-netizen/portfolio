@@ -9,7 +9,6 @@
 <body>
 
   <header>
-
     <h1 class="fade-in">👋 مرحبًا، أنا Nour</h1>
     <p class="fade-in delay">Full-Stack & Mobile App Developer</p>
     <div class="buttons">
@@ -36,7 +35,6 @@
       <div class="project-card">
         <img src="Screenshot 2025-10-08 032547.png" alt="مشروع 1">
         <h3>وجهت تسجيل الدخول</h3>
-        <p></p>
         <a href="https://nouralden067-netizen.github.io/loge-from/" target="_blank">شاهد المشروع</a>
         <br>
         <a href="https://github.com/nouralden067-netizen/loge-from" target="_blank">GitHub</a>
@@ -45,7 +43,6 @@
       <div class="project-card">
         <img src="Screenshot 2025-10-08 232249.png" alt="مشروع 2">
         <h3>تصميم موقع الكتروني</h3>
-        <p></p>
         <a href="https://nouralden067-netizen.github.io/Website-design/" target="_blank">شاهد المشروع</a>
         <br>
         <a href="https://github.com/nouralden067-netizen/Website-design" target="_blank">GitHub</a>
@@ -58,15 +55,13 @@
     <div class="projects-container">
       <div class="project-card">
         <img src="project3.jpg" alt="مشروع 3">
-        <h3>مشروع رقم_1</h3>
-        <p></p>
+        <h3>مشروع رقم 1</h3>
         <a href="#">شاهد المشروع</a>
       </div>
 
       <div class="project-card">
         <img src="project4.jpg" alt="مشروع 4">
-        <h3>مشروع رقم_2</h3>
-        <p></p>
+        <h3>مشروع رقم 2</h3>
         <a href="#">شاهد المشروع</a>
       </div>
     </div>
@@ -96,20 +91,19 @@
   </footer>
 
   <script>
-  document.querySelectorAll('a[href^="#"]').forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      target.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
       });
     });
-  });
-
-</script>
-
+  </script>
 
 </body>
 </html>
-

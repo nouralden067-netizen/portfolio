@@ -6,13 +6,12 @@ body {
   scroll-behavior: smooth;
 }
 
-
+/* حركات الأنيميشن */
 @keyframes fadeIn {
   from {
     opacity: 0;
     transform: translateY(20px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
@@ -24,7 +23,6 @@ body {
     opacity: 0;
     transform: translateY(60px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
@@ -47,7 +45,7 @@ body {
   animation: slideUp 1.2s ease both;
 }
 
-
+/* الهيدر */
 header {
   text-align: center;
   padding: 80px 20px;
@@ -66,7 +64,6 @@ header p {
   color: #ccc;
   margin-bottom: 25px;
 }
-
 
 header .buttons {
   display: flex;
@@ -89,7 +86,7 @@ header .buttons {
   transform: translateY(-3px);
 }
 
-
+/* قسم عني */
 #about {
   display: flex;
   align-items: center;
@@ -117,7 +114,7 @@ header .buttons {
   font-size: 1.8rem;
 }
 
-
+/* المشاريع */
 #fullstack-projects,
 #mobile-projects {
   text-align: center;
@@ -178,7 +175,7 @@ header .buttons {
   background: #0097a7;
 }
 
-
+/* التواصل */
 #contact {
   text-align: center;
   padding: 60px 20px;
@@ -202,67 +199,40 @@ header .buttons {
   flex-wrap: wrap;
 }
 
-.git {
+.git, .link, .face, .insta {
   border: 2px solid black;
   width: 50px;
   height: 50px;
   padding: 10px;
   border-radius: 50px;
+  transition: 0.3s;
 }
 
 .git:hover {
-  transition: 0.3s;
   transform: translateY(-10px);
   background: #fff;
   box-shadow: 0px 0px 5px 3px #ccc;
 }
 
-.link {
-  border: 2px solid black;
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  border-radius: 50px;
-}
-
 .link:hover {
-  transition: 0.3s;
   transform: translateY(-10px);
   background: #549ff5;
   box-shadow: 0px 0px 5px 3px #54cff8;
 }
 
-.face {
-  border: 2px solid black;
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  border-radius: 50px;
-}
-
 .face:hover {
-  transition: 0.3s;
   transform: translateY(-10px);
   background: #022cff;
   box-shadow: 0px 0px 5px 3px #4153fa;
 }
 
-.insta {
-  border: 2px solid black;
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  border-radius: 50px;
-}
-
 .insta:hover {
-  transition: 0.3s;
   transform: translateY(-10px);
   background: #ff025b;
   box-shadow: 0px 0px 5px 3px #f56186;
 }
 
-
+/* الفوتر */
 footer {
   text-align: center;
   padding: 20px;
@@ -271,7 +241,7 @@ footer {
   font-size: 0.9rem;
 }
 
-
+/* موبايل */
 @media (max-width: 768px) {
   #about {
     flex-direction: column;
@@ -281,16 +251,9 @@ footer {
   .btn {
     width: 80%;
   }
-  .git{
-    background: #fff;
-  }
-  .link{
-    background: #549ff5;
-  }
-  .face{
-    background: #022cff;
-  }
-  .insta{
-    background: #ff025b;
-  }
+
+  .git { background: #fff; }
+  .link { background: #549ff5; }
+  .face { background: #022cff; }
+  .insta { background: #ff025b; }
 }
