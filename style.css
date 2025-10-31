@@ -111,14 +111,12 @@ header .buttons {
   font-size: 1.8rem;
 }
 
-#Front-End,
-#mobile-projects {
+#Front-End{
   text-align: center;
   padding: 60px 20px;
 }
 
-#Front-End h2,
-#mobile-projects h2 {
+#Front-End h2{
   color: #00bcd4;
   margin-bottom: 40px;
 }
