@@ -111,13 +111,13 @@ header .buttons {
   font-size: 1.8rem;
 }
 
-#fullstack-projects,
+#Front-End,
 #mobile-projects {
   text-align: center;
   padding: 60px 20px;
 }
 
-#fullstack-projects h2,
+#Front-End h2,
 #mobile-projects h2 {
   color: #00bcd4;
   margin-bottom: 40px;
